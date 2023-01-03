@@ -65,3 +65,17 @@ nav ul li a:hover{
     letter-spacing: 2px;
     margin-bottom: 7px;
 }
+.content-txt h1{
+    font-size: 3.1rem;
+    color: #333;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.content-txt p{
+    color: #717175;
+    font-size: 1.4rem;
+    max-width: 100%;
+    width: 430px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
