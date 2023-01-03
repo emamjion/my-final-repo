@@ -79,3 +79,18 @@ nav ul li a:hover{
     line-height: 1.4;
     margin-bottom: 20px;
 }
+.btn2{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #f44335;
+    padding: 12px 32px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.btn2:hover{
+    border: 2px solid #f44335;
+    background: transparent;
+    color: #333;
+}
