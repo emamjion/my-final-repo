@@ -3,3 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+nav{
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h2{
+    font-family: 'roboto';
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    color: #717175;
+    transition: color 0.5s;
+}
+nav ul li a:hover{
+    color: #f44335;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #f44335;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
